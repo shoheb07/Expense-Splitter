@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Expense Splitter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="expense-box">
+
+        <h1>Expense Splitter</h1>
+
+        <input type="number"
+               id="totalAmount"
+               placeholder="Enter Total Amount">
+
+        <input type="number"
+               id="people"
+               placeholder="Enter Number of People">
+
+        <button onclick="splitExpense()">
+            Split Expense
+        </button>
+
+        <h2 id="result"></h2>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
